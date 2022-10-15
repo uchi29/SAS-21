@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SOLID</title>
+</head>
+<body>
+<img src="{{ url_for('static', filename='solid.png')}}" style="width:100%; height:150px ;">
+
+<h1>Solid</h1>
+<p>Solids are a form of matter that has a definite shape and volume</p>
+<h3>Examples</h3>
+<ul>
+	<li>Gold</li>
+	<li>Wood</li>
+	<li>Steel</li>
+	<li>Bricks</li>
+	<li>Rock</li>
+	<li>Copper</li>
+	<li>Brass</li>
+	<li>Aluminum foil</li>
+</ul>
+<h4>Menu</h4>
+<ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('gas') }}">Gas</a></li>
+            <li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+            <li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+            
+          </ul>
+</body>
+</html>

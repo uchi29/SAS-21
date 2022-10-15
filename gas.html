@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<style >
+	.def{ border:2px solid black;
+	font-family: Times new roman;
+	font-size: 20px; }
+	ul {
+		border: 2px solid black;
+	}
+</style>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GAS</title>
+</head>
+<body>
+	<img src="{{ url_for('static', filename='gas.jpg')}}" style="width:100%; height: 100px;">
+<div class="def">
+<h1>GAS</h1>
+<p>A gas is a form of matter that does not have a defined shape or volume. Gases expand to fill the space they are given.</p>
+</div>
+<h3>Example of Gases</h3>
+<ul>
+	<li>Air</li>
+	<li>Helium</li>
+	<li>Nitrogen</li>
+	<li>Freon</li>
+	<li>Carbon Monoxide</li>
+	<li>Oxygen</li>
+	<li>Propane</li>
+	<li>Ozone</li>
+
+</ul>
+<h4>Menu</h4>
+<ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+            <li><a href="{{ url_for('solid') }}">Solid</a></li>
+            <li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+            
+          </ul>
+</body>
+</html>

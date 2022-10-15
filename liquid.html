@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LIQUID</title>
+</head>
+<body>
+	<img src="{{ url_for('static', filename='liquid.jpg')}}" style="width: 100%; height: 150px;">
+<div class="def">
+<h1>LIQUID</h1>
+<p>A particles are less tightly packed as compared to solids</p>
+
+<h3>Examples of liquid</h3>
+<ul>
+	<li>Water</li>
+    <li>Mercury</li>
+    <li>Bromine</li>
+    <li>Honey</li>
+	<li>Milk</li>
+	<li>Blood</li>
+	<li>Urine</li>
+	<li>Gasoline</li>
+	
+</ul>
+<h4>Menu</h4>
+<ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('gas') }}">Gas</a></li>
+            <li><a href="{{ url_for('solid') }}">Solid</a></li>
+            <li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+
+</ul>
+
+</body>
+</html>

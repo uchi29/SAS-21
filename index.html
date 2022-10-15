@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HOME</title>
+</head>
+<body>
+<img src="{{ url_for('static', filename='som.jpg')}}" style="width:100%; height:300px;">
+<p style="font-size: 20px; font-family: Times new roman;">In physics, a state of matter is one of the distinct forms in which matter can exist. Four states of matter are observable in everyday life: solid, liquid, gas, and plasma.<p>
+
+<h3>Menu</h3>
+
+<ul class="menu">
+            <li><a href="{{ url_for('gas') }}">Gas</a></li>
+            <li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+            <li><a href="{{ url_for('solid') }}">Solid</a></li>
+            <li><a href="{{ url_for('plasma') }}">Plasma</a></li>
+            
+          </ul>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PLASMA</title>
+</head>
+<body>
+	<img src="{{ url_for('static', filename='plasma.jpg')}}" style="width:100%; height:150px ;">
+
+<h1>Plasma</h1>
+<p>Plasma is a state of matter that is often thought of as a subset of gases, but the two states behave very differently.</p>
+<h3>Examples</h3>
+<ul>
+	<li>Lightning</li>
+	<li>Aurora</li>
+	<li>Comet tail</li>
+	<li>Static electricity</li>
+	<li>Interstellar nebula</li>
+	<li>Earth’s ionosphere</li>
+	<li>Fireball of nuclear explosion</li>
+	<li>Interstellar gas clouds</li>
+</ul>
+<h4>Menu</h4>
+<ul class="menu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('gas') }}">Gas</a></li>
+            <li><a href="{{ url_for('liquid') }}">Liquid</a></li>
+            <li><a href="{{ url_for('solid') }}">Solid</a></li>
+            
+          </ul>
+</body>
+</html>
